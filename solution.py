@@ -119,7 +119,7 @@ if __name__ == '__main__':
         print('--------------------------------------------------------------------')
         if query == 'u':
             name = input('Please, enter your name: ')
-            password = input('Please, enter your password (password must contain lowercase, uppercase and numbers): ')
+            password = input('Please, enter your password (password must contain lowercase, uppercase and numbers and not less than 5 symbols): ')
             if name in db:
                 print('The name is already taken, choose another')
                 firstAttempt = False
